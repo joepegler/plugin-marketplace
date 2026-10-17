@@ -12,4 +12,4 @@ Zyfai provides non-custodial DeFi yield discovery, strategy information, portfol
 
 The connector calls the Zyfai-hosted `mcp.zyf.ai` endpoint. Public yield discovery can be used without a funded wallet. Personal portfolio queries and account operations require authentication through Zyfai's OAuth flow. No wallet private key or API key should be entered into Grok. Supported transaction preparation flows require a separate handoff and user wallet approval in the Zyfai app; the MCP connector does not sign or execute blockchain transactions independently.
 
-See the upstream repository for implementation, security details, terms and licensing.
+License: ISC (declared by the upstream `zyfai-mcp-server` package). See the upstream repository for implementation, security details and terms.
